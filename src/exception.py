@@ -18,10 +18,3 @@ class CustomException(Exception):
     def __str__(self):
         return self.message
     
-    
-if __name__ == "__main__":
-    try:
-        a=1/0
-    except:
-        logging.info("Error occured")
-        raise CustomException(e,sys)
