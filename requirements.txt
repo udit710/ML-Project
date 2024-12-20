@@ -1,10 +1,9 @@
-pandas
-numpy
-seaborn
+pandas==2.2.3
+numpy==1.26.4
 matplotlib
 scikit-learn
 catboost
 xgboost
 dill
 Flask
-# -e .
+-e .
